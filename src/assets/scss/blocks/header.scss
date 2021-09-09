@@ -1,0 +1,35 @@
+.header {
+    padding-top: 26px;
+    padding-bottom: 22px;
+
+    border-bottom: 1px solid $whiteline;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 770px) {
+        flex-direction: column;
+        text-align: center;
+    } 
+}
+
+.logo{
+    & img{
+        width: 191px;
+        height: 42px;
+
+        @media screen and (max-width: 770px) {
+            margin-bottom: 20px;
+        } 
+    }
+}
+
+.logo__text {
+    font-size: 15px;
+    font-weight: 400;
+
+    color: $secondary;
+}
