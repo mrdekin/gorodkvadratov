@@ -1,0 +1,15 @@
+.button {
+    background: $blue;
+    border-radius: 6px;
+    color: white;
+    padding: 13px 28px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .1s linear;
+
+    &:hover {
+        background: #2e64f7;
+    }
+}
